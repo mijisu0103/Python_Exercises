@@ -1,5 +1,3 @@
-# Python
-ECS780P - Computer Programming
 # Python  
 ## ECS780P - Computer Programming  
 ### W1    
