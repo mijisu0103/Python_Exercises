@@ -1,0 +1,4 @@
+Name, Surname, Mark, d
+John, Smith, 50, d
+Anne, Larsson, 65, d
+Emiliano, Zapata, 95, d
