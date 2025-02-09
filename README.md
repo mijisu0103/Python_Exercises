@@ -96,7 +96,162 @@ ECS780P Computer Programming introduces the principles of programming, focusing 
 
 ## Repository Structure 🌲
 ```bash
-
+.
+├── README.md
+├── W1-cp-firststeps
+│   ├── First_Steps-Exercises.ipynb
+│   ├── First_Steps.ipynb
+│   ├── README.md
+│   ├── hello.py
+│   ├── media
+│   │   ├── fs-bmi_input.webm
+│   │   ├── fs-hello_world.webm
+│   │   ├── fs-input.webm
+│   │   ├── fs-notebooks.webm
+│   │   ├── fs-operators.webm
+│   │   ├── fs-repl.webm
+│   │   ├── fs-types.webm
+│   │   └── fs-variables.webm
+│   └── requirements.txt
+├── W1-cp-introduction
+│   ├── Introduction.ipynb
+│   ├── README.md
+│   ├── low-level-programming.jpg
+│   ├── media
+│   │   └── cp-intro-dont_panic.mp3
+│   └── requirements.txt
+├── W11-cp-regexp
+│   ├── CHICK.fasta
+│   ├── README.md
+│   ├── Regular_expressions-Exercises.ipynb
+│   ├── Regular_expressions.ipynb
+│   ├── media
+│   │   ├── rgx-chick.webm
+│   │   ├── rgx-compiling.mp3
+│   │   ├── rgx-hello.webm
+│   │   ├── rgx-intro.mp3
+│   │   ├── rgx-operators.webm
+│   │   ├── rgx-patterns.mp3
+│   │   ├── rgx-quantifiers.webm
+│   │   └── rgx-trawling.webm
+│   └── requirements.txt
+├── W12-cp-revision
+│   ├── Hapax_Legomenon.ipynb
+│   ├── MockQuestions22.ipynb
+│   ├── TorbjornLager_46_exercises_annotated.pdf
+│   ├── exercise_44_brackets.ipynb
+│   └── exercise_46_alternade.ipynb
+├── W2-cp-collections
+│   ├── Collections-Exercises.ipynb
+│   ├── Collections.ipynb
+│   ├── README.md
+│   ├── excerpts.py
+│   ├── media
+│   │   ├── cc-comprehensions.webm
+│   │   ├── cc-dictionaries.webm
+│   │   ├── cc-dictmethods.webm
+│   │   ├── cc-indexing.webm
+│   │   ├── cc-intro.mp3
+│   │   ├── cc-listmethods.webm
+│   │   ├── cc-lists.webm
+│   │   ├── cc-references.webm
+│   │   ├── cc-tuples.webm
+│   │   └── cc-zip.webm
+│   └── requirements.txt
+├── W3-cp-flowcontrol
+│   ├── Conditional_statements.ipynb
+│   ├── Flow_Control-Exercises.ipynb
+│   ├── Iterative_constructs.ipynb
+│   ├── README.md
+│   ├── media
+│   │   ├── cs-Boolean.webm
+│   │   ├── cs-conditional_expressions.webm
+│   │   ├── cs-indentation.webm
+│   │   ├── cs-intro.webm
+│   │   ├── cs-list_comprehensions.webm
+│   │   ├── cs-test-order.webm
+│   │   ├── ic-accumulator.webm
+│   │   ├── ic-break.webm
+│   │   ├── ic-intro.mp3
+│   │   ├── ic-lazy_computation.webm
+│   │   ├── ic-nested_loops.webm
+│   │   ├── ic-simple_for.webm
+│   │   ├── ic-while.webm
+│   │   └── ic-zip.webm
+│   └── requirements.txt
+├── W4-cp-files
+│   ├── Files-Exercises.ipynb
+│   ├── Files.ipynb
+│   ├── P04637.fas
+│   ├── README.md
+│   ├── combined_output.txt
+│   ├── marksheet.csv
+│   ├── media
+│   │   ├── fl-csvdiy.webm
+│   │   ├── fl-csvwcsv.webm
+│   │   ├── fl-forloop.webm
+│   │   ├── fl-hprogrammaticus.webm
+│   │   ├── fl-intro.mp3
+│   │   ├── fl-oldvsnew.webm
+│   │   ├── fl-readline.webm
+│   │   ├── fl-readlines.webm
+│   │   └── fl-theanswer.webm
+│   ├── notes.txt
+│   ├── requirements.txt
+│   └── shopping.csv
+├── W5-cp-functions
+│   ├── Functions.ipynb
+│   ├── Functions_and_Modules-Exercises.ipynb
+│   ├── Modules.ipynb
+│   ├── P04637.fas
+│   ├── README.md
+│   ├── US_births_2000-2014_SSA.csv
+│   ├── fastaio.py
+│   ├── media
+│   │   ├── fn-defining.webm
+│   │   ├── fn-euclidean.webm
+│   │   ├── fn-globalvar.webm
+│   │   ├── fn-intro.ogg
+│   │   ├── fn-ismultiple.webm
+│   │   ├── fn-multable.webm
+│   │   ├── fn-readfasta.webm
+│   │   ├── fn-returntuple.webm
+│   │   ├── fn-scope.webm
+│   │   ├── md-import-functions.webm
+│   │   ├── md-import.webm
+│   │   ├── md-intro.ogg
+│   │   ├── md-module.webm
+│   │   ├── md-pip.webm
+│   │   └── md-testing.webm
+│   ├── mymax.py
+│   └── requirements.txt
+├── W6-cp-objects
+│   ├── Additional_exercises.ipynb
+│   ├── OOP-Exercises.ipynb
+│   ├── Object_Oriented_Programming.ipynb
+│   ├── README.md
+│   ├── media
+│   │   ├── oop-classes.webm
+│   │   ├── oop-constructor.webm
+│   │   ├── oop-encapsulation.webm
+│   │   ├── oop-inheritance.webm
+│   │   ├── oop-intro.mp3
+│   │   └── oop-polymorphism.webm
+│   ├── requirements.txt
+│   └── students.py
+└── W8-cp-exceptions
+    ├── Errors_and_Exceptions.ipynb
+    ├── Exceptions-Exercises.ipynb
+    ├── README.md
+    ├── media
+    │   ├── exc-dangers.webm
+    │   ├── exc-inheritance.webm
+    │   ├── exc-intro.mp3
+    │   ├── exc-propagation.webm
+    │   ├── exc-tryexcept.webm
+    │   └── exc-whatswrong.webm
+    ├── requirements.txt
+    └── text.txt
 ```
 
 <br>
